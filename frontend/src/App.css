@@ -1,0 +1,98 @@
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh; /* Modification de la hauteur pour remplir l'écran */
+  background-color: #f0f0f0; /* Modification de la couleur de fond */
+  font-family: Arial, sans-serif; /* Changement de la police */
+  font-size: 16px; /* Réduction de la taille de la police */
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  margin-top: 50px; /* Réduction de la marge supérieure */
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 300px; /* Largeur du formulaire */
+  padding: 20px; /* Ajout de remplissage */
+  background-color: #fff; /* Fond blanc */
+  border-radius: 10px; /* Coins arrondis */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Ombre légère */
+}
+
+.label {
+  color: #333;
+  font-size: 16px;
+  margin-bottom: 8px;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+.label:hover {
+  color: #008000;
+  cursor: pointer;
+}
+
+.button-group {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px; /* Réduction de l'espacement entre les boutons */
+}
+
+button {
+  border: none; /* Suppression de la bordure */
+  background-color: #1389bf; /* Couleur de fond verte */
+  color: #fff; /* Couleur du texte blanc */
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #15739f; /* Changement de couleur au survol */
+}
+
+select {
+  padding: 10px 20px;
+  margin: 5px;
+  background-color: #fff;
+  color: #333;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  font-size: 16px;
+  cursor: pointer;
+  outline: none;
+  appearance: none;
+}
+
+select:hover {
+  background-color: #f0f0f0; /* Changement de couleur au survol */
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+input:focus {
+  outline: none;
+  border-color: #15739f; /* Changement de couleur de la bordure au focus */
+}
+
+ul {
+  list-style: none;
+}
